@@ -1,0 +1,78 @@
+# Text Processing
+
+--> Tokenization - splitting text into words or sentences
+
+Purpose:
+In NLP tasks like text classification or sentiment analysis each token is used for analysis. Here token represents each word in a sentence.
+In NER (Named Entity Recognition), we identify entities like names of places, people, organization etc.... for which tokens are used
+
+--> Stemming - Reducing the word to their base form
+--> Lemmatization - Reducing the word to their base form with meaning
+
+Purpose:
+- Reducing variations - One word can be of many forms due to conjugation, tense, plurality
+- Improving Text-preprocessing
+
+# Difference between Stemming and Lemmatization, when to use which technique?
+
+Stemming:
+- Loss of meaning
+- computationally less expensive
+- suitable where speed is a critical factor
+e.g.: information retrieval
+
+Lemmatization:
+- No loss of meaning
+- computationally more expensive
+- suitable for tasks requiring deeper understanding
+e.g.: sentiment analysis, machine transalation
+
+
+# Text Preprocessing:
+
+It invloves cleaning and transforming raw data into a format that is suitable for analysis (or) modeling
+
+Some of the text preprocessing tasks are:
+- Noise Reduction - Raw data contains text in the form of special characters, HTML Tags, punctuation
+
+- Standardization - Text data from various sources have various formats, spellings. Preprocessing standardizes the data to ensure integrity and uniformity in analysis.
+
+- Stop word removal - Words like is, the, and, etc.. does not add value in analysis. These words will be removed to reduce the data size and for efficient analysis
+
+- Lower Casing
+- Removing Special characters
+- Handling Numbers
+- Feature Extraction
+- Spell check
+- Date operations
+
+# Common NLP Tasks:
+
+- Text classification - assigning categories or labels to text documents e.g.: spam detection, topic classification
+- Named Entity Recognition - Identifying and classifying named entities such as names of people, company, date and more
+- Parts-of-speech Tagging(POS Tagging) - Assigning grammatical tags e.g.: noun, verb, adjective to each word
+- Sentiment analysis - Determining the sentiment or emotional tone of piece of text
+- Text Generation - Creating human like text that can be used for Chatbots, creative writing, content generation
+- Machine Translation - Translating text from one language to another
+- Speech Recognition - Converting spoken language into text
+- Text Summarization - Automatically generating concise summaries of text, useful for news articles or document summarization
+- Question Answering - Finding and providing answers to questions posed in natural language
+- Text Clustering and Topic Modeling - Grouping categories of text together
+- Coreference Resolution - Identifying different words or phrases in a text that refer to same entity
+- Dependency Parsing - Analyzing the grammatical structure of a sentence by determining the relationships between words
+- Conversational AI - Building chatbots or virtual assistants that can engage in human like conversations
+
+Other Applications of NLP:
+
+--> Event extraction
+--> Relation extraction
+--> Opinion Mining
+--> Text-to-Image
+--> Humor Detection
+--> Emotion Detection
+--> Legal NLP
+--> Aspect Based Sentiment Analysis
+--> Virtual Tutors
+
+
+
